@@ -12,3 +12,10 @@ docker run -d \
 
 
   docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
+
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+
+
+DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve
