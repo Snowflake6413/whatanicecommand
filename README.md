@@ -19,3 +19,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 
 DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve
+
+
+![aga](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0a50b9ba743af278_noo.jpg)
